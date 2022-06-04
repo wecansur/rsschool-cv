@@ -9,4 +9,9 @@
 ## About Me ##
 I worked as university teacher of russian language as foreign, but decide to build careerer in other sphere.
 I have big interest in learning new skills.
-I`m obsessed with activities that require deep immersion and teamwork so I decide to become a frontend developer.
+I`m *obsessed* with activities that require deep immersion and teamwork so I decide to become a frontend developer.
+## Skills ##
+* HTML
+* CSS
+* Git, GitHub
+* VS Code
