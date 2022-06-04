@@ -27,3 +27,7 @@ return a * b
 
 ## Courses ##
 **The Rolling Scopes School** *"JavaScript/Front-end" stage 0 (in progress)*.
+## Languages ##
+* Russian - native
+* English - B1
+* Polish - A2
