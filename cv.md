@@ -15,14 +15,15 @@ I`m *obsessed* with activities that require deep immersion and teamwork so I dec
 * CSS
 * Git, GitHub
 * VS Code
-## Code examples##
+## Code examples ##
 Solution for sign task at codewars.
-```function multiply (a, b) {
+```
+function multiply (a, b) {
 return a * b
 }
 ```
 ## Education ##
-**Irkutsk State University**, bachelor, *Philology (russian language and russian literature)*
+**Irkutsk State University**, bachelor, *Philology (russian language and russian literature)*.
 
 ## Courses ##
-**The Rolling Scopes School** *"JavaScript/Front-end" stage 0 (in progress)*
+**The Rolling Scopes School** *"JavaScript/Front-end" stage 0 (in progress)*.
