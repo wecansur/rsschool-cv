@@ -1,1 +1,1 @@
-https://wecansur.github.io/rsschool-cv/
+https://wecansur.github.io/rsschool-cv/cv
