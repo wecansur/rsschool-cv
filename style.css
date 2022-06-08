@@ -26,8 +26,14 @@ html {
       margin: auto;
   }
  
-  .nav-list { /* elements need to fix */
+  .nav-list {
       display: flex;
       justify-content: flex-end;
       align-items: center;
+      list-style: none;
+  }
+
+  .nav-link {
+      padding: 0 20px;
+      line-height: 50px;
   }
