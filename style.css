@@ -21,3 +21,9 @@
       max-width: 1440px;
       margin: auto;
   }
+ 
+  .nav-list { /* elements need to fix */
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+  }
