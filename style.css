@@ -36,4 +36,5 @@ html {
   .nav-link {
       padding: 0 20px;
       line-height: 50px;
+      text-decoration: none;
   }
