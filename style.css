@@ -45,6 +45,10 @@ html {
       text-decoration: none;
   }
 
+  .contact-link {
+      text-decoration: none;
+  }
+
   .main-container {
       display: flex;
       flex-wrap: wrap;
