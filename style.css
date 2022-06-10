@@ -64,10 +64,11 @@ html {
   }
 
   .header {
-      background-color: #484848;
+      background-color: #000000;
   }
 
   .footer {
     padding: 20px;
-    background-color: #484848;
+    background-color: #000000;
+    color: #ffffff;
   }
