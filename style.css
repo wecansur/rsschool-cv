@@ -62,12 +62,18 @@ html {
       color: #ffffff;
   }
 
-  .contact-link {
+  .nav-link:hover {
+      background-color: chocolate;
+      transition: .3s;
+  }
+
+  .link {
       color: #000000;
   }
 
-  .project-link {
-      color:#000000
+  .link:hover {
+    color: chocolate;
+    transition: .3s;
   }
 
   .main-container {
