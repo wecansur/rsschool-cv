@@ -86,7 +86,7 @@ html {
   
   .section {
       width: 50%;
-  }
+      }
 
   .footer-container {
     display: flex;
@@ -95,8 +95,13 @@ html {
 
   .header {
       background-color: #000000;
+      margin-bottom: 20px;
   }
 
+  .snippet {
+      background-color: #e7e7e7;
+  }
+  
   .footer {
     padding: 20px;
     background-color: #000000;
