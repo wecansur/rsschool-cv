@@ -63,7 +63,7 @@ html {
   }
 
   .nav-link:hover {
-      background-color: chocolate;
+      background-color: #d2691e;
       transition: .3s;
   }
 
@@ -72,7 +72,7 @@ html {
   }
 
   .link:hover {
-    color: chocolate;
+    color: #d2691e;
     transition: .3s;
   }
 
