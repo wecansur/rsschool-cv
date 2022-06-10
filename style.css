@@ -62,3 +62,12 @@ html {
     display: flex;
     justify-content: space-between;
   }
+
+  .header {
+      background-color: #484848;
+  }
+
+  .footer {
+    padding: 20px;
+    background-color: #484848;
+  }
