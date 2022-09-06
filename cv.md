@@ -13,6 +13,7 @@ I`m *obsessed* with activities that require deep immersion and teamwork so I dec
 ## Skills ##
 * HTML
 * CSS
+* JavaScript
 * Git, GitHub
 * VS Code
 ## Code examples ##
