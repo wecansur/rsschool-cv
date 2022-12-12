@@ -9,6 +9,7 @@
     <link rel="icon" href="assets/svg/icon.ico">
 </head>
 <body>
+    <div class="pop-up-cover"></div>
     <header class="header">
         <div class="container">
             <nav class="nav">
@@ -38,13 +39,34 @@
                         <a href="#languages" class="nav-link">Languages</a>
                     </li>
                 </ul>
+                <div class="burger-container">
+                    <img src="/assets/svg/burger.svg" alt="burger" class="burger">
+                </div>
+                <div class="burger-menu">
+                    <div class="dash-container">
+                        <div class="dash dash-part1"></div>
+                        <div class="dash dash-part2"></div>
+                    </div>
+                    <nav class="burger-nav-section">
+                        <ul class="burger-nav-list">
+                            <li class="nav-item"><a href="#contacts" class="nav-link burger-link">Contacts</a></li>
+                            <li class="nav-item"><a href="#summary" class="nav-link burger-link">Summary</a></li>
+                            <li class="nav-item"><a href="#skills" class="nav-link burger-link">Skills</a></li>
+                            <li class="nav-item"><a href="#code" class="nav-link burger-link">Code example</a></li>
+                            <li class="nav-item"><a href="#courses" class="nav-link burger-link">Courses</a></li>
+                            <li class="nav-item"><a href="#projects" class="nav-link burger-link">Projects</a></li>
+                            <li class="nav-item"><a href="#education" class="nav-link burger-link">Education</a></li>
+                            <li class="nav-item"><a href="#languages" class="nav-link burger-link">Languages</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </nav>
         </div>
     </header>
     <main>
         <div class="container main-container">
             <div class="section">
-                <img src="assets/img/photo.png" alt="my photo" width="200" height="219">
+                <img src="assets/img/photo.png" alt="my photo" width="200" height="219" class="photo">
             </div>
 
             <section class="section">
@@ -52,10 +74,10 @@
                     <h3 class="subtitle">Junior Front-End Developer</h3>
             </section>
             <section class="section" id="contacts">
-                <h2>Contacts</h2>
+                <h2 class="section-title">Contacts</h2>
                 <ul>
                     <li>Location: Tel Aviv, Israil</li>
-                    <li>Phone: <a href: "tel:+972532731494" class="link phone-link">972532731494</a></li>
+                    <li>Phone: <a href="tel:972532731494" class="link phone-link">972532731494</a></li>
                     <li>E-mail:
                         <a href="mailto:vlkob95@gmail.com" class="link">vlkob95@gmail.com</a>
                     </li>
@@ -69,9 +91,9 @@
                 </ul>
             </section>
             <section class="section" id="summary">
-                <h2>Summary</h2>
+                <h2 class="section-title">Summary</h2>
 
-                <p>
+                <p class="summary text">
                     I worked as university teacher of russian language as foreign, but decide to build career in other sphere.
                     I have big interest in learning new skills.
                     I`m obsessed with activities that require deep immersion and teamwork so I decide to become a frontend developer.
@@ -79,8 +101,8 @@
 
             </section>
             <section class="section" id="skills">
-                <h2>Skills</h2>
-                <ul>
+                <h2 class="section-title">Skills</h2>
+                <ul class="text">
                     <li>HTML5</li>
                     <li>CSS3, SASS</li>
                     <li>JavaScript</li>
@@ -90,8 +112,8 @@
                 </ul>
             </section>
             <section class="section" id="code">
-                <h2>Code Example</h2>
-                <p>Solution of codewars kata <a href="https://www.codewars.com/kata/54b42f9314d9229fd6000d9c" class="link">Duplicate Encoder</a>:</p>
+                <h2 class="section-title">Code Example</h2>
+                <p class="text">Solution of codewars kata <a href="https://www.codewars.com/kata/54b42f9314d9229fd6000d9c" class="link">Duplicate Encoder</a>:</p>
                 <pre class="snippet">
                     <code class="code-example">
 function duplicateEncode(word){
@@ -111,27 +133,27 @@ function duplicateEncode(word){
                 </pre>
             </section>
             <section class="section" id="courses">
-                <h2>Courses</h2>
-                <ul>
+                <h2 class="section-title">Courses</h2>
+                <ul class="text">
                     <li>The Rolling Scopes School, "JavaScript/Front-end" stage 0</li>
                     <li>The Rolling Scopes School, "JavaScript/Front-end" stage 1 (in progress)</li>
                 </ul>
             </section>
             <section class="section" id="projects">
-                <h2>Projects</h2>
-                <ul>
+                <h2 class="section-title">Projects</h2>
+                <ul class="text">
                     <li><a href="https://rolling-scopes-school.github.io/wecansur-JSFEPRESCHOOL2022Q2/travel/" class="link">Travel</a></li>
                     <li><a href="https://rolling-scopes-school.github.io/wecansur-JSFEPRESCHOOL2022Q2/momentum/" class="link">Momentum</a></li>
                     <li><a href="https://wecansur.github.io/codejam-eldritch/" class="link">Eldritch Horror helprer-shuffler (Code Jam project)</a></li>
                 </ul>
             </section>
             <section class="section" id="education">
-                <h2>Education</h2>
-                <p>Irkutsk State University, bachelor, Philology (russian language and russian literature)</p>
+                <h2 class="section-title">Education</h2>
+                <p class="text">Irkutsk State University, bachelor, Philology (russian language and russian literature)</p>
             </section>
             <section class="section" id="languages">
-                <h2>Languages</h2>
-                <ul>
+                <h2 class="section-title">Languages</h2>
+                <ul class="text">
                     <li>Russian - native</li>
                     <li>English - B1</li>
                     <li>Polish - A2</li>
@@ -141,7 +163,7 @@ function duplicateEncode(word){
     </main>
     <footer class="footer">
         <div class="container footer-container">
-            <div class="footer-created">
+            <div class="footer-created" class="text">
                 Created in 2022 by
                 <a href="https://github.com/wecansur" class="link footer-link">Vladimir Kobelev</a>
             </div>
@@ -150,5 +172,6 @@ function duplicateEncode(word){
             </a>
         </div>
     </footer>
+    <script src="/script.js"></script>
 </body>
 </html>
