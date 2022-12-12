@@ -70,8 +70,7 @@ html {
       transition: .3s;
   }
 
-  .link {
-      text-decoration-line: underline; 
+  .link { 
       color: #000000;
   }
 
@@ -79,6 +78,11 @@ html {
     color: #d2691e;
     transition: .3s;
   }
+
+  .phone-link {
+    text-decoration-line: underline;
+    cursor: pointer;
+}
 
   .main-container {
       display: flex;
@@ -100,9 +104,12 @@ html {
   }
 
   .snippet {
-      text-align: left;
       background-color: #f0f0f0;
   }
+
+  .code-example {
+      text-align: left;
+}
   
   .footer {
     padding: 20px;
