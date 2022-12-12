@@ -123,9 +123,10 @@ function duplicateEncode(word){
   const unUnicChars = array.filter((item, index) => {
     return array.indexOf(item) !== index;
   })
-  for (let i = 0; i < upperCaseWord.length; i++) {
+  for (let i = 0; i &lt; upperCaseWord.length; i++) {
     const curChar = upperCaseWord[i];
-    (unUnicChars.includes(curChar)) ? result += ')' : result += '(';
+    (unUnicChars.includes(curChar)) ?
+    result += ')' : result += '(';
   }
   return result;
 }
@@ -163,7 +164,7 @@ function duplicateEncode(word){
     </main>
     <footer class="footer">
         <div class="container footer-container">
-            <div class="footer-created" class="text">
+            <div class="footer-created text">
                 Created in 2022 by
                 <a href="https://github.com/wecansur" class="link footer-link">Vladimir Kobelev</a>
             </div>
