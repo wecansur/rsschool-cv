@@ -55,7 +55,7 @@
                 <h2>Contacts</h2>
                 <ul>
                     <li>Location: Tel Aviv, Israil</li>
-                    <li>Phone: 972532731494</li>
+                    <li>Phone: <a href: "tel:972532731494"972532731494</a></li>
                     <li>E-mail:
                         <a href="mailto:vlkob95@gmail.com" class="link">vlkob95@gmail.com</a>
                     </li>
@@ -93,16 +93,16 @@
                 <pre class="snippet">
                     <code>
                         function duplicateEncode(word){
-                              let result = '';
-                              const upperCaseWord = word.toUpperCase();
-                              const array = upperCaseWord.split('');
-                              const unUnicChars = array.filter((item, index) => {
-                                return array.indexOf(item) !== index;
-                              })
-                              for (let i = 0; i < upperCaseWord.length; i++) {
-                                (unUnicChars.includes(upperCaseWord[i])) ? result += ')' : result += '(';
-                              }
-                              return result;
+                          let result = '';
+                          const upperCaseWord = word.toUpperCase();
+                          const array = upperCaseWord.split('');
+                          const unUnicChars = array.filter((item, index) => {
+                            return array.indexOf(item) !== index;
+                          })
+                          for (let i = 0; i < upperCaseWord.length; i++) {
+                            (unUnicChars.includes(upperCaseWord[i])) ? result += ')' : result += '(';
+                          }
+                          return result;
                         }
                         </code>
                 </pre>
