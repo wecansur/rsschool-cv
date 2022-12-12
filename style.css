@@ -71,6 +71,7 @@ html {
   }
 
   .link {
+      text-decoration-line: underline; 
       color: #000000;
   }
 
@@ -99,6 +100,7 @@ html {
   }
 
   .snippet {
+      text-align: left;
       background-color: #f0f0f0;
   }
   
