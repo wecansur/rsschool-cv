@@ -54,8 +54,8 @@
             <section class="section" id="contacts">
                 <h2>Contacts</h2>
                 <ul>
-                    <li>Location: Irkutsk, Russia</li>
-                    <li>Phone: +7-902-512-25-34</li>
+                    <li>Location: Tel Aviv, Israil</li>
+                    <li>Phone: 972532731494</li>
                     <li>E-mail:
                         <a href="mailto:vlkob95@gmail.com" class="link">vlkob95@gmail.com</a>
                     </li>
@@ -89,12 +89,21 @@
             </section>
             <section class="section" id="code">
                 <h2>Code Example</h2>
-                <p>Solution for sign task at codewars:</p>
+                <p>Solution of codewars kata <a href="https://www.codewars.com/kata/54b42f9314d9229fd6000d9c" class="link">Duplicate Encoder</a>:</p>
                 <pre class="snippet">
                     <code>
-                        function multiply (a, b) {
-                                return a * b
-                                }
+                        function duplicateEncode(word){
+                              let result = '';
+                              const upperCaseWord = word.toUpperCase();
+                              const array = upperCaseWord.split('');
+                              const unUnicChars = array.filter((item, index) => {
+                                return array.indexOf(item) !== index;
+                              })
+                              for (let i = 0; i < upperCaseWord.length; i++) {
+                                (unUnicChars.includes(upperCaseWord[i])) ? result += ')' : result += '(';
+                              }
+                              return result;
+                        }
                         </code>
                 </pre>
             </section>
