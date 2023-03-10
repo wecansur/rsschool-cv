@@ -120,7 +120,7 @@ function duplicateEncode(word){
   let result = '';
   const upperCaseWord = word.toUpperCase();
   const array = upperCaseWord.split('');
-  const unUnicChars = array.filter((item, index) => {
+  const unUnicChars = array.filter((item, index) =&gt; {
     return array.indexOf(item) !== index;
   })
   for (let i = 0; i &lt; upperCaseWord.length; i++) {
